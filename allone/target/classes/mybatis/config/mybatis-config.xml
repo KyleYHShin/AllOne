@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<settings>
+		<!-- 예시 -->		
+		<!-- name : 변수명 자동 변경 설정 ex)(DB)user_gender -> (Java)userGender -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+		
+		<!-- 작성 부분 -->
+
+		<!-- 끝 -->
+	</settings>
+
+	<typeAliases>
+		<!-- 예시 -->		
+		<!-- login : 로그인용 멤버 객체 -->
+		<!-- <typeAlias type="com.kh.allone.login.vo.MemberVO" alias="MemberVO"/> -->
+
+		<!-- 작성 부분 -->
+
+		<!-- 끝 -->
+	</typeAliases>
+
+</configuration>
